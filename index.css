@@ -1,0 +1,157 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #4a30b9;
+	color: #f1efef;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	align-items:  left ;
+	padding: 30px 30px;
+}
+nav {
+	background-color: #241616;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 2px 4px rgba(197, 68, 68, 0.1);
+  }
+
+nav ul {
+	list-style: none;
+	display: flex;
+	text-align: center;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #e63636f5;
+	text-decoration: none;
+}
+
+section {
+	padding: 50px 20px;
+}
+
+section h2 {
+	text-align: left ;
+	margin-bottom: 20px;
+}
+
+section ul {
+	list-style: disc;
+	margin-left: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(240, 8, 8, 0.842);
+}
+
+input[type="submit"] {
+	background-color: #1dc44f;
+	color: #f5f4f4;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #d87534;
+}
+
+footer {
+	background-color: #333;
+	color: #fcf9f9;
+	text-align: center;
+	padding: 20px;
+}
+
+footer p {
+	margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	nav {
+		margin-top: 20px;
+	}
+
+	nav li {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	section {
+		padding: 20px;
+	}
+
+	form {
+		max-width: none;
+	}
+}
+.donation-tab {
+	background-color: #f7f7f7;
+	padding: 20px;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donation-tab h3 {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+  }
+  
+  .donation-tab p {
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #666;
+  }
+  
+  .donate-button {
+	display: inline-block;
+	padding: 12px 24px;
+	background-color: #4CAF50;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 50px;
+	transition: background-color 0.3s ease;
+  }
+  
+  .donate-button:hover {
+	background-color: #45a049;
+}
